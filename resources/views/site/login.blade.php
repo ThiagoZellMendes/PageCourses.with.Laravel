@@ -4,6 +4,7 @@
 
 
 <div class="logo">
+  <i class="fa fa-arrow-right" aria-hidden="true"><span></span></i>
     </div>
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
@@ -45,17 +46,17 @@
 <form action="{{route('site.logar')}}"method="post">
     @csrf 
     <p> 
-        <label for="nome_login">Seu nome</label>
+        <label for="nome_login">Seu E-mail</label>
     <input class="form-control" name='email'  type="email" placeholder="ex. contato@htmlecsspro.com"/>
     </p> 
     
     <p> 
-        <label for="email_login">Seu e-mail</label>
+        <label for="email_login">Sua Senha</label>
         <input class="form-control" name='senha' type="password" placeholder="ex. senha" /> 
     </p>
 
     <p> 
-        <input type="submit" value="Logar" /> 
+        <input type="submit" value="Login" /> 
     </p>
         </form>
     </div>

@@ -128,8 +128,8 @@ span {
 }
 #Banner {
   position: relative;
-  height: 100vh;
-  background: linear-gradient(274deg, #7a7f80, #777786 44%, #312c33);
+  height: 90vh;
+  background: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7);
   color: #fff;
 }
 #Banner .content-wrap {

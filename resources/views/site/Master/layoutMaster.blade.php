@@ -7,14 +7,16 @@
     <title>Curso rapidos</title>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="Stylesheet" href="http://localhost/laravel-tips/minisite09/public/css/style.css">
-    <link rel="Stylesheet" href="http://localhost/laravel-tips/minisite09/public/css/custom-responsive-styles.css">
-    <link rel="Stylesheet" href="http://localhost/laravel-tips/minisite09/public/css/loginstyle.css">
-    <link rel="Stylesheet" href="http://localhost/laravel-tips/minisite09/public/css/cursostyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="Stylesheet" href="{{url('css/style.css')}}">
+    <link rel="Stylesheet" href="{{url('css/custom-responsive-styles.css')}}">
+    <link rel="Stylesheet" href="{{url('css/loginstyle.css')}}">
+    <link rel="Stylesheet" href="{{url('css/cursostyle.css')}}">
 
-    <script type="text/javascript" src="http://localhost/laravel-tips/minisite09/public/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="http://localhost/laravel-tips/minisite09/public/js/all-plugins.js"></script>
-    <script type="text/javascript" src="http://localhost/laravel-tips/minisite09/public/js/plugins-activate.js"></script>
+    <script type="text/javascript" src="{{url('js/jquery-3.2.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('js/all-plugins.js')}}"></script>
+    <script type="text/javascript" src="{{url('js/plugins-activate.js')}}"></script>
 </head>
 
 <body id="page-top">

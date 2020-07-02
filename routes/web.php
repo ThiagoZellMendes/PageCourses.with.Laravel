@@ -1,10 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
+
+
+Route::get('/', 'homeController@home')->name('site.home');
 
 Route::get('/home', 'homeController@home')->name('site.home');
 
-Route::post('/cadastrar', 'cadastroController@cadastrar');
+Route::post('/cadastrar', 'cadastroController@cadastrar')->name('site.cadastrar');
 
 Route::get('/login', 'LoginController@login')->name('site.login');
 

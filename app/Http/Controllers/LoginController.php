@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class LoginController extends Controller
@@ -19,12 +20,17 @@ class LoginController extends Controller
             'email' => 'required',
             'senha' => 'required'
         ]);
-        if($request->email == 'jackmon@gmail.com' && $request->senha == '147852'){
-            session(['nome' => 'Jack-Mom']);
-            return redirect()->route('site.cursos');
-        }else{
-            return redirect()->back()->with('erro', 'Login ou senha Incorreto');
-        }
+        $usuario = User::where('email', $request->email)
+        ->where('senha', ($request->senha))->first();
+        
+
+        if($usuario != null){
+        session(['nome'=> $usuario->nome]);
+            
+        return redirect()->route('site.cursos');
+    }
+        
+        return redirect()->back()->with('erro', 'Login ou senha Incorreto');
     }
 
     public function logout(Request $request){

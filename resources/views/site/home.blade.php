@@ -3,7 +3,7 @@
 @section('contentMaster')
 
 <div class="logo">
-<i class="fa fa-plane" aria-hidden="true"><span>Bem Vindo:</span></i>
+<i class="fa fa-home" aria-hidden="true"><span>Bem Vindo:</span></i>
   </div>
   <a class="menu-toggle rounded" href="#">
     <i class="fa fa-bars"></i>
@@ -144,31 +144,15 @@
                 <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info">jackmon@gmail.com</span>
               </div>
             </div>
-            <div class="address-block">
-              <h3 class="add-title"></h3>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="c-info">&nbsp;</span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span class="c-info"></span>
-              </div>
-              <div class="c-detail">
-                <span class="c-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="c-info"></span>
-              </div>
-            </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
           <div class="form-wrap">
-            <form action="{{url('cadastrar')}}" method="post"> 
+            <form action="{{route('site.cadastrar')}}" method="post"> 
               @csrf             
               <div class="fname floating-label">
                 <input type="text" class="form-control" name="nome" />
-                <label for="nome">Nome</label>
-              </div>
-              <div class="fname floating-label">
-                <input type="text" class="form-control" name="sobrenome" />
-                <label for="sobrenome">Sobre Nome</label>
+                <label for="nome">Nome Completo</label>
               </div>
               <div class="email floating-label">
                 <input type="email" class="form-control" name="email" />
@@ -196,6 +180,7 @@
   <script>
       (function () {
           window.onload = function () {
+            localStorage.removeItem('blipSdkUAccount');
               new BlipChat()
               .withAppKey('Y3Vyc29mYWNpbGNoYXQ6NWFmZWYzY2QtMjZhNy00ODk2LWEzM2YtZTNhYWY2MTEyN2Jk')
               .withButton({"color":"#2CC3D5","icon":""})
