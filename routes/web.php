@@ -21,4 +21,6 @@ Route::group(['middleware' => ['Autentic']], function () {
 
     Route::get('/cursos', 'cursosController@cursos')->name('site.cursos');
 
+    Route::get('/aulaphp', 'aulasController@aulasPhp')->name('site.aulasphp');
+
 }); 

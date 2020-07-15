@@ -33,7 +33,7 @@
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Linguagem PHP<span class="text-muted">Progração</span></h2>
         <p class="lead">Aprenda as principais forma de programas com essa linguagem, e muito mais!</p>
-        <a class="btn btn-primary btn-xl" href="{{route('site.login')}}">Ir para o curso</a>
+        <a class="btn btn-primary btn-xl" href="{{route('site.aulasphp')}}">Ir para o curso</a>
       </div>
       <div class="col-md-5 order-md-1">
         <figure>

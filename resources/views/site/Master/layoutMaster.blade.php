@@ -13,6 +13,7 @@
     <link rel="Stylesheet" href="{{url('css/custom-responsive-styles.css')}}">
     <link rel="Stylesheet" href="{{url('css/loginstyle.css')}}">
     <link rel="Stylesheet" href="{{url('css/cursostyle.css')}}">
+    <link rel="Stylesheet" href="{{url('css/aulasstyle.css')}}">
 
     <script type="text/javascript" src="{{url('js/jquery-3.2.1.min.js')}}"></script>
     <script type="text/javascript" src="{{url('js/all-plugins.js')}}"></script>
