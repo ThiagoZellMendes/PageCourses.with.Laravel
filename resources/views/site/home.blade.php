@@ -30,9 +30,9 @@
   <!-- Header Starts -->
   <section id="Banner" class="content-section">
     <div class="container content-wrap text-center">
-      <h1>Tec fácil cursos</h1>
+      <h1>TEC FÁCIL CURSOS</h1>
       <h3>
-          <em>Olá, aqui você vai encontrar curso sobre tecnologio de maneira rapida e pratica!</em>
+          <em>Olá, aqui você vai encontrar curso sobre tecnologia de maneira rapida e pratica!</em>
         </h3>
       <a class="btn btn-primary btn-xl" href="{{route('site.login')}}">Login</a>
     </div>

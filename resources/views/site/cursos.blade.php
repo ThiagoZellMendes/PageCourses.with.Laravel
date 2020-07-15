@@ -30,11 +30,11 @@
 
 <section id="Banner" class="content-section">
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Liguagem PHP<span class="text-muted">Progração</span></h2>
         <p class="lead">Aprenda as principais forma de programas com essa linguagem, e muito mais!</p>
       </div>
-      <div class="img1">
+      <div class="col-md-5 order-md-1">
 
       </div>
     </div>
@@ -58,11 +58,25 @@
 
 <section id="Banner" class="content-section">
     <div class="row featurette">
-    <div class="col-md-7">
+      <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Redes de computadores<span class="text-muted">Infraestrutura</span></h2>
         <p class="lead">Crie todos tipos de redes e aprenda como gerenciar todas as maquinas de sua rede.</p>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-5 order-md-1">
+
+    </div>
+    </div>
+</section>
+
+      <hr class="featurette-divider">
+
+<section id="Banner" class="content-section">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Segurança da Informação<span class="text-muted">Segurança</span></h2>
+        <p class="lead">Nesse curso você apredenderar as principais tecnicas para manter seus dandos em seguraça.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
 
 
     </div>
