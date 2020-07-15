@@ -4,7 +4,7 @@
 
 <div class="logo">
   <i class="fa fa-arrow-right" aria-hidden="true">
-    <span>Bem vindo: {{session('nome')}}</span></i>
+    <span>Escolha o seu curso: {{session('nome')}}</span></i>
   </div>
   <a class="menu-toggle rounded" href="#">
     <i class="fa fa-bars"></i>
@@ -28,8 +28,8 @@
   <!-- ======= Breadcrumbs ======= -->
   <div class="breadcrumbs" data-aos="fade-in">
     <div class="container">
-      <h2>Curso PHP</h2>
-      <p>Aprenda as principais forma de programas com essa linguagem, e muito mais!</p>
+      <h2>Curso Banco De dados</h2>
+      <p>Se tranforme em ninja e manipulação de banco de dados com essa ferramenta!.</p>
     </div>
   </div><!-- End Breadcrumbs -->
 
@@ -39,10 +39,12 @@
 
       <div class="row">
         <div class="col-lg-8">
-          <img src="{{url('img/php-logo-w.png')}}" class="img-fluid" alt="">
-          <h3>O que é Liguagem de programação</h3>
+          <img src="{{url('img/maxresdefault.jpg')}}" class="img-fluid" alt="">
+          <h3>O que é Banco de Dados</h3>
           <p>
-            É uma linguagem formal que, através de uma série de instruções, permite que um programador escreva um conjunto de ordens, ações consecutivas, dados e algoritmos para criar programas que controlam o comportamento físico e lógico de uma máquina.
+            Existem vários tipos de banco de dados e eles estão presentes na nossa vida há muito tempo, a lista telefônica por exemplo pode ser considerada um banco de dados.
+
+Antigamente as empresas armazenavam informações em arquivos físicos, mas o surgimento e evolução dos computadores possibilitaram o armazenamento de dados de modo digital. Assim os bancos de dados evoluíram e se tornaram o coração de muitos sistemas de informação.
           </p>
         </div>
         <div class="col-lg-4">
@@ -53,13 +55,13 @@
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
-            <h5>Linguagem</h5>
-            <p>PHP</p>
+            <h5>Tipo</h5>
+            <p>Banco de Dados</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
             <h5>Tempo do curso</h5>
-            <p>30h</p>
+            <p>60h</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
@@ -84,13 +86,13 @@
               <a class="nav-link active show" data-toggle="tab" href="#tab-1">Fundamentos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2">Tipo de dados</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2">Dados vs Informações</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-3">Estrutura de repetição</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-3">Metadados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-4">Orientação Objetos</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-4">Bancos de dados relacionais</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#tab-5">Projeto</a>

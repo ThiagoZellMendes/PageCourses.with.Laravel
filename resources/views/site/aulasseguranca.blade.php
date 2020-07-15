@@ -4,7 +4,7 @@
 
 <div class="logo">
   <i class="fa fa-arrow-right" aria-hidden="true">
-    <span>Bem vindo: {{session('nome')}}</span></i>
+    <span>Escolha o seu curso: {{session('nome')}}</span></i>
   </div>
   <a class="menu-toggle rounded" href="#">
     <i class="fa fa-bars"></i>
@@ -28,8 +28,8 @@
   <!-- ======= Breadcrumbs ======= -->
   <div class="breadcrumbs" data-aos="fade-in">
     <div class="container">
-      <h2>Curso PHP</h2>
-      <p>Aprenda as principais forma de programas com essa linguagem, e muito mais!</p>
+      <h2>Curso Segurança da Informação</h2>
+      <p>Nesse curso você apredenderar as principais tecnicas para manter seus dandos em seguraça</p>
     </div>
   </div><!-- End Breadcrumbs -->
 
@@ -39,10 +39,10 @@
 
       <div class="row">
         <div class="col-lg-8">
-          <img src="{{url('img/php-logo-w.png')}}" class="img-fluid" alt="">
-          <h3>O que é Liguagem de programação</h3>
+          <img src="{{url('img/seguranca.jpg')}}" class="img-fluid" alt="">
+          <h3>O que é Segurança da Informação</h3>
           <p>
-            É uma linguagem formal que, através de uma série de instruções, permite que um programador escreva um conjunto de ordens, ações consecutivas, dados e algoritmos para criar programas que controlam o comportamento físico e lógico de uma máquina.
+            Trata-se de tudo aquilo que envolve a proteção de sistemas e dados de um determinado indivíduo ou empresa, sendo que o nível de segurança é estabelecido de acordo com o valor das informações e os potenciais prejuízos causados por seu uso indevido
           </p>
         </div>
         <div class="col-lg-4">
@@ -53,13 +53,13 @@
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
-            <h5>Linguagem</h5>
-            <p>PHP</p>
+            <h5>Tipo</h5>
+            <p>Segurança de dados</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
             <h5>Tempo do curso</h5>
-            <p>30h</p>
+            <p>20h</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
@@ -81,16 +81,16 @@
         <div class="col-lg-3">
           <ul class="nav nav-tabs flex-column">
             <li class="nav-item">
-              <a class="nav-link active show" data-toggle="tab" href="#tab-1">Fundamentos</a>
+              <a class="nav-link active show" data-toggle="tab" href="#tab-1">Fundamentos da Segurança de Dados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2">Tipo de dados</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2">Inteligência contra Ameaças</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-3">Estrutura de repetição</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-3">Governança em Segurança Cibernética para Lideranças</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-4">Orientação Objetos</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-4">Driblando as ameaças cibernéticas às...</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#tab-5">Projeto</a>

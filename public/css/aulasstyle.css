@@ -524,10 +524,9 @@ section {
 }
 
 .breadcrumbs {
-  margin-top: 73px;
   text-align: center;
   background: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7);
-  padding: 30px 0;
+  padding: 90px 0;
   color: #fff;
 }
 
@@ -747,7 +746,7 @@ section {
 }
 
 .courses .course-content h3 a:hover {
-  color: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7);;
+  color: #117fa7;
 }
 
 .courses .course-content p {
@@ -923,7 +922,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7); !important;
+  background-color: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7);
 }
 
 @media (max-width: 767px) {
@@ -968,7 +967,7 @@ section {
   display: block;
   width: 60px;
   height: 1px;
-  background: linear-gradient(274deg, #1708bf, #1c5ff9 44%, #117fa7);;
+  background: #117fa7;
   bottom: 0;
   left: 0;
 }

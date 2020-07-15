@@ -17,12 +17,6 @@
     <li class="sidebar-nav-item">
     <a href="{{ route('site.home')}}">Home</a>
     <li class="sidebar-nav-item">
-      <a href="{{ route('site.home')}}#About">Sobre</a>
-    </li>
-    <li class="sidebar-nav-item">
-    <a href="{{ route('site.home')}}#Contact">Contato/Cadastrar</a>
-    </li>
-    <li class="sidebar-nav-item">
       <a href="{{ route('site.logout')}}">Logout</a>
       </li>
   </ul>
@@ -51,11 +45,11 @@
     <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">POSTGRESS<span class="text-muted">Banco de dados.</span></h2>
         <p class="lead">Se tranforme em ninja e manipulação de banco de dados com essa ferramenta!.</p>
-        <a class="btn btn-primary btn-xl" href="{{route('site.login')}}">Ir para o curso</a>
+        <a class="btn btn-primary btn-xl" href="{{route('site.aulasbanco')}}">Ir para o curso</a>
       </div>
     <div class="col-md-5 order-md-1">
       <figure>
-        <img src="{{url('img/maxresdefault.jpg')}}" alt="Curso PHP">
+        <img src="{{url('img/maxresdefault.jpg')}}" alt="Curso Banco">
       </figure>
 
     </div>
@@ -69,11 +63,11 @@
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Redes de computadores<span class="text-muted">Infraestrutura</span></h2>
         <p class="lead">Crie todos tipos de redes e aprenda como gerenciar todas as maquinas de sua rede.</p>
-        <a class="btn btn-primary btn-xl" href="{{route('site.login')}}">Ir para o curso</a>
+        <a class="btn btn-primary btn-xl" href="{{route('site.aulasredes')}}">Ir para o curso</a>
       </div>
     <div class="col-md-5 order-md-1">
       <figure>
-        <img src="{{url('img/REDES.png')}}" alt="Curso PHP">
+        <img src="{{url('img/REDES.png')}}" alt="Curso Redes">
       </figure>
 
     </div>
@@ -87,11 +81,11 @@
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Segurança da Informação<span class="text-muted">Segurança</span></h2>
         <p class="lead">Nesse curso você apredenderar as principais tecnicas para manter seus dandos em seguraça.</p>
-        <a class="btn btn-primary btn-xl" href="{{route('site.login')}}">Ir para o curso</a>
+        <a class="btn btn-primary btn-xl" href="{{route('site.aulasseguranca')}}">Ir para o curso</a>
       </div>
     <div class="col-md-5 order-md-1">
       <figure>
-        <img src="{{url('img/seguranca.jpg')}}" alt="Curso PHP">
+        <img src="{{url('img/seguranca.jpg')}}" alt="Curso Seguranca">
       </figure>
 
 

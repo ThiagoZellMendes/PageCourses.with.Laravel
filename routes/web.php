@@ -23,4 +23,10 @@ Route::group(['middleware' => ['Autentic']], function () {
 
     Route::get('/aulaphp', 'aulasController@aulasPhp')->name('site.aulasphp');
 
+    Route::get('/aulabanco', 'aulasController@aulasBanco')->name('site.aulasbanco');
+
+    Route::get('/aularedes', 'aulasController@aulasRedes')->name('site.aulasredes');
+
+    Route::get('/aulaseguranca', 'aulasController@aulasSeguranca')->name('site.aulasseguranca');
+
 }); 

@@ -4,7 +4,7 @@
 
 <div class="logo">
   <i class="fa fa-arrow-right" aria-hidden="true">
-    <span>Bem vindo: {{session('nome')}}</span></i>
+    <span>Escolha o seu curso: {{session('nome')}}</span></i>
   </div>
   <a class="menu-toggle rounded" href="#">
     <i class="fa fa-bars"></i>
@@ -28,8 +28,8 @@
   <!-- ======= Breadcrumbs ======= -->
   <div class="breadcrumbs" data-aos="fade-in">
     <div class="container">
-      <h2>Curso PHP</h2>
-      <p>Aprenda as principais forma de programas com essa linguagem, e muito mais!</p>
+      <h2>Curso Redes</h2>
+      <p>Se tranforme em ninja e manipulação de banco de dados com essa ferramenta!.</p>
     </div>
   </div><!-- End Breadcrumbs -->
 
@@ -39,10 +39,11 @@
 
       <div class="row">
         <div class="col-lg-8">
-          <img src="{{url('img/php-logo-w.png')}}" class="img-fluid" alt="">
+          <img src="{{url('img/REDES.png')}}" class="img-fluid" alt="">
           <h3>O que é Liguagem de programação</h3>
-          <p>
-            É uma linguagem formal que, através de uma série de instruções, permite que um programador escreva um conjunto de ordens, ações consecutivas, dados e algoritmos para criar programas que controlam o comportamento físico e lógico de uma máquina.
+          <p>Você provavelmente já ouviu ou leu algum destes termos em alguma situação do seu dia-a-dia navegando pela Internet: “WAN”, “LAN”, “VPN”… Isso para ficar nos mais simples. Mas você sabe o que é uma rede de computadores??
+          </p>
+          <p>Uma rede de computadores é um grupo de sistemas de computadores e outros dispositivos de hardware de computação que estão ligados entre si através de canais de comunicação para facilitar a comunicação e o compartilhamento de recursos entre uma ampla gama de usuários. Redes são geralmente classificadas com base em suas características.
           </p>
         </div>
         <div class="col-lg-4">
@@ -53,13 +54,13 @@
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
-            <h5>Linguagem</h5>
-            <p>PHP</p>
+            <h5>Tipo</h5>
+            <p>Redes</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
             <h5>Tempo do curso</h5>
-            <p>30h</p>
+            <p>50h</p>
           </div>
 
           <div class="course-info d-flex justify-content-between align-items-center">
@@ -84,16 +85,16 @@
               <a class="nav-link active show" data-toggle="tab" href="#tab-1">Fundamentos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-2">Tipo de dados</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-2">Tipo de Redes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-3">Estrutura de repetição</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-3">Protocolos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-4">Orientação Objetos</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-4">Estrutura de Redes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tab-5">Projeto</a>
+              <a class="nav-link" data-toggle="tab" href="#tab-5">Mini-Projeto</a>
             </li>
           </ul>
         </div>
