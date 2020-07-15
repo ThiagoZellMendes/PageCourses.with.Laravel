@@ -11,6 +11,23 @@
     line-height: 1;
     letter-spacing: -.05rem;
   }
+
+  
+  img {
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  }
+
+  #Banner .btn-primary {
+    background-color: #02ccba;
+    color: #fff;
+    border: none;
+  }
+  #Banner .btn-primary:hover {
+    background-color: #07bcab;
+  }
+
   
   
   /* RESPONSIVE CSS
@@ -34,4 +51,3 @@
       margin-top: 7rem;
     }
   }
-  
