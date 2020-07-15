@@ -1,4 +1,4 @@
 # SplashScreen
 with loading fade
 
-<a href="https://imgflip.com/gif/48e1cd"><img src="https://i.imgflip.com/gif/48e1cd.gif" title="made at imflip.com"/></a>
+![bandicam 2020-07-15 19-12-27-490](https://user-images.githubusercontent.com/64324862/87606937-8d0b9600-c6d2-11ea-93ed-7ce1afc22dbd.gif)
